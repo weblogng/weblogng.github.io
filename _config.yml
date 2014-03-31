@@ -11,7 +11,7 @@ pygments: true
 title : WeblogNG  
 tagline: Site Tagline
 author :
-  name : weblogNG 
+  name : WeblogNG
   email : blah@email.test
   github : weblogng 
   twitter : weblogng 
