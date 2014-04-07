@@ -2,8 +2,8 @@
 layout: post
 title: "WeblogNG at DCC14"
 description: ""
-category: 
-tags: []
+category: presentations
+tags: [html5, performance]
 ---
 {% include JB/setup %}
 
