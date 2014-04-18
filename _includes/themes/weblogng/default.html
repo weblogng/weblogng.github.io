@@ -33,10 +33,14 @@
   </head>
 
   <body>
-    <div class="navbar">
+    <div class="navbar navbar-helper">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <div class="panel-sitename">
+            <a class="brand" href="{{ HOME_PATH }}">
+              <span class="color-orange">Weblog</span>NG
+            </a>
+          </div>
           <ul class="nav">
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
