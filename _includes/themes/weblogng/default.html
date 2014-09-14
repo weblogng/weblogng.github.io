@@ -37,11 +37,12 @@
       <div class="navbar-inner">
         <div class="container-narrow">
           <div class="panel-sitename">
-            <a class="brand" href="{{ HOME_PATH }}">
+            <a class="brand" href="https://www.weblogng.com">
               <img src="https://www.weblogng.com/stilearn3/images/weblogng/logo/stilearn3-gs-2/gsabstract568.150px.png" class="img-responsive lazy" width="96px" height="25px" alt="WeblogNG logo" style="margin: 1px;"/>
             </a>
           </div>
           <ul class="nav">
+            <li><a href="{{ HOME_PATH }}">Blog Home</a></li>
             {% assign pages_list = site.pages %}
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
