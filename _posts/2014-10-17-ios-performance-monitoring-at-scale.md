@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Real World iOS Performance Monitoring
+title: iOS Performance Monitoring in the Real World
 description: "iOS Performance Monitoring in the Real World using WeblogNG"
 category: performance
 tags: [iOS, performance, monitoring]
