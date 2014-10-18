@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "iOS Performance Monitoring in the Real World"
-description: ""
+title: Real World iOS Performance Monitoring
+description: "iOS Performance Monitoring in the Real World using WeblogNG"
 category: performance
-tags: iOS performance monitoring
+tags: [iOS, performance, monitoring]
 ---
 {% include JB/setup %}
 
@@ -139,4 +139,6 @@ Now that we have visibility into real-life application usage, we can manage the 
 * designing the user experience to manage request latency expectations, definitely avoiding promises that network operations complete immediately
 * reducing the total number of requests, perhaps by batching them together
 * minimizing both request and response data 
+
+If you would like this level of visibility into your iOS application's performance, then [sign-up for WeblogNG](https://www.weblogng.com/) today.
 
