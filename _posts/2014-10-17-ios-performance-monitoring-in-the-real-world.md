@@ -112,14 +112,14 @@ Q. How long do _your_ app's requests really take?
 
 Many developers don't have a good idea of how long their app's requests take in the real world.
 
-Fortunately, WeblogNG can help by automatically timing all http requests made with NSURLConnection.  This feature can be enabled by calling `NSURLConnection.wng_setLogging(true)`.  Here's the main.swift code from above with the necessary update:
+Fortunately, WeblogNG can help by automatically timing all http requests made with NSURLConnection.  This feature can be enabled by calling `NSURLConnection.wng_enableLogging()`.  Here's the main.swift code from above with the necessary update:
 
 	import Foundation
 	import UIKit
 
 	WNGLogger.initSharedLogger("your WeblogNG api key")
 	WNGLogger.sharedLogger().recordStart("application-launch")
-	NSURLConnection.wng_setLogging(true) //enable automatic timing of NSURLRequests
+	NSURLConnection.wng_enableLogging() //enable automatic timing of NSURLRequests
 
 	UIApplicationMain(C_ARGC, C_ARGV, 
 		NSStringFromClass(UIApplication), NSStringFromClass(AppDelegate))
